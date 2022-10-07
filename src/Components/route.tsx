@@ -2,7 +2,7 @@ import { useState, useEffect, ReactElement } from "react";
 import { useRouterContext } from "./router";
 
 interface RouteProps {
-  path: string;
+  path: "/" | "/about";
   component: ReactElement;
 }
 
