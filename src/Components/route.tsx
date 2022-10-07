@@ -1,6 +1,5 @@
 import { useState, useEffect, ReactElement } from "react";
-
-import { useRouterContext } from "./routerComponent";
+import { useRouterContext } from "./router";
 
 interface RouteProps {
   path: string;

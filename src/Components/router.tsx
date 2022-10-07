@@ -1,7 +1,7 @@
-import { useState, useContext, createContext, ReactElement } from "react";
+import { useState, useContext, createContext, ReactNode } from "react";
 
 interface RoutesProps {
-  children: ReactElement[];
+  children: ReactNode;
 }
 
 const RouterContext = createContext({

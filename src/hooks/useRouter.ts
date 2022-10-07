@@ -1,4 +1,4 @@
-import { useRouterContext } from "../Components/routerComponent";
+import { useRouterContext } from "../Components/router";
 
 type PathProps = "/" | "/about";
 
